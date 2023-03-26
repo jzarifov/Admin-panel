@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <style>
+        table,td,th{
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ADMIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Bosh sahifa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aloqa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://t.me/zarifovv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Qo'llab quvvatlash
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Qidirish</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</nav>
+
+    <div class="container">
+        <div class="bejik">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oj3POYgUd1wO_yLD-nWnDiYQpJy-C5DsMgC3-MRjLw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sarvar Tohirov</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://t.me/sarvar" class="btn btn-primary">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oj3POYgUd1wO_yLD-nWnDiYQpJy-C5DsMgC3-MRjLw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anvar Shonazarov</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://t.me/anvarbek" class="btn btn-primary">Batafsil</a>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oj3POYgUd1wO_yLD-nWnDiYQpJy-C5DsMgC3-MRjLw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rasul Panayev</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://t.me/the_sad_story" class="btn btn-primary">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oj3POYgUd1wO_yLD-nWnDiYQpJy-C5DsMgC3-MRjLw&s" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Odamboy Qurbonboyev</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://t.me/odamboy_05" class="btn btn-primary">Batafsil</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+
+
+
+    <div class="sidebar">
+
+    </div>
+    <div class="main">
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th onclick="myFunc(0)">Ismi</th>
+                    <th onclick="myFunc(1)">Yoshi</th>
+                    <th onclick="myFunc(2)">Bo'yi(sm)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jahongir</td>
+                    <td>22</td>
+                    <td>172</td>
+                </tr>
+                <tr>
+                    <td>Ali</td>
+                    <td>20</td>
+                    <td>182</td>
+                </tr>
+                <tr>
+                    <td>Vali</td>
+                    <td>24</td>
+                    <td>179</td>
+                </tr>
+                <tr>
+                    <td>Anvar</td>
+                    <td>18</td>
+                    <td>177</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    <div class="katak">
+        <table class="table">
+            <thead>
+              <tr class="table-success">
+                <th scope="col">№</th>
+                <th scope="col">Ismi</th>
+                <th scope="col">Familiyasi</th>
+                <th scope="col">Usernam</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Diyorbek</td>
+                <td>Mardonov</td>
+                <td>@diyorbek_002</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Rasul</td>
+                <td>Panayev</td>
+                <td>@panayev</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Zarifboy</td>
+                <td>@zarifbee_</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>
